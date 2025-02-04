@@ -3,7 +3,7 @@
  * Please do not distribute beyond the CSci-4611 course
  */
 
-import { ImageApp } from './ImageApp'
+import { MapApp } from './MapApp'
 
-const app = new ImageApp();
+const app = new MapApp();
 app.start();

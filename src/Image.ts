@@ -44,7 +44,7 @@ export class Image extends gfx.Node2
             this.pixels = new Uint8ClampedArray(nBytes);
 
             console.log(this.texture.width, this.texture.height);
-            this.rect.scale = new gfx.Vector2(1.0, this.texture.height/this.texture.width);
+            this.rect.scale = new gfx.Vector2(1.0, 1.0*this.texture.height/this.texture.width);
 
             this.gl.bindTexture(this.gl.TEXTURE_2D, null);
 
